@@ -1,0 +1,14 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="EndScreenEndScreen" src="project://database/Assets/EndScreenEndScreen.uxml?fileID=9197481963319205126&amp;guid=da9ee14c1672bdf468fc3ac76613c813&amp;type=3#EndScreenEndScreen"/>
+    <ui:Template name="NPCDialogue" src="project://database/Assets/NPCDialogue.uxml?fileID=9197481963319205126&amp;guid=fdaa25ce4afbbdd4bb7011ec9a1a4049&amp;type=3#NPCDialogue"/>
+    <ui:Template name="RobotCounter" src="project://database/Assets/RobotCounter.uxml?fileID=9197481963319205126&amp;guid=5a458f1cacdcd7b4d9b502b9b4297291&amp;type=3#RobotCounter"/>
+    <ui:VisualElement name="HealthBarBackground" style="flex-grow: 0; width: 341px; height: 171px; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Art/Ruby/UI/UIHealthFrame.png?fileID=21300000&amp;guid=e04807cd45105ec409b00463fe6ab7b1&amp;type=3#UIHealthFrame&quot;); -unity-background-scale-mode: scale-to-fit;">
+        <ui:VisualElement name="HealthBarContainer" style="flex-grow: 1; position: absolute; height: 51px; width: 188px; top: 56px; left: 141px;">
+            <ui:VisualElement name="HealthBar" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Art/Ruby/UI/UIHealthBar.png?fileID=21300000&amp;guid=be3322f3a1dbc6e44b25b63f3bb91e16&amp;type=3#UIHealthBar&quot;);"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="CharacterPortrait" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Art/Ruby/UI/CharacterPortrait.png?fileID=21300000&amp;guid=374193bc7008fa34ab9b2bbca376937b&amp;type=3#CharacterPortrait&quot;); -unity-background-scale-mode: scale-to-fit; position: absolute; height: 135px; width: 135px; top: 4px; left: 13px;"/>
+    </ui:VisualElement>
+    <ui:Instance template="NPCDialogue" name="NPCDialogue" style="position: absolute; top: 70%; right: 10%; left: 10%; bottom: 0%;"/>
+    <ui:Instance template="EndScreenEndScreen" name="EndScreenEnd" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0;"/>
+    <ui:Instance template="RobotCounter" name="RobotCounter" style="position: absolute; top: 0%; left: 90%; right: 0%; bottom: 90%;"/>
+</ui:UXML>
