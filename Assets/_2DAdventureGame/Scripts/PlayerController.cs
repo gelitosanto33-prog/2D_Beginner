@@ -126,7 +126,7 @@ public class PlayerController : MonoBehaviour
 
     public void ChangeHealth(int amount)
     {
-        if (amount < 1)
+        if (amount < 0)
         {
             if (isInvincible)
             {
